@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EasymenuNGActivity!</string>
+    <string name="app_name">EasymenuNG</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="spinnerPrompt">Select a login...</string>
+    <string name="username">User</string>
+    <string name="password">Password</string>
+    <string name="diners">Diners</string>
+    <string name="adultdiners">Adults</string>
+    <string name="childrendiners">Children</string>
+    <string name="NoItems">No items in the list</string>
+        
+</resources>

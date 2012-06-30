@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_df">#ffCCCC99</color>
+    <color name="numberpicker_button_text">#FFFFFFFF</color>
+    <color name="dialog_background_df">#ffCCCC99</color>
+    <color name="item_text_df">#FF424A4D</color>
+    <color name="dialog_text_df">#FF424A4D</color>
+
+</resources>

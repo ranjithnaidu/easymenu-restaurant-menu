@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollViewLeft"
+        android:layout_width="match_parent" android:fillViewport="true"
+        android:layout_height="match_parent" android:layout_weight="1" >
+        
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:paddingTop="10dp" android:paddingLeft="5dp" 
+    android:paddingRight="5dp">
+
+    <TextView android:id="@+id/lblTable" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        android:text=""  android:layout_marginTop="10dp" android:textSize="18sp" android:textColor="#ffffff"
+         android:layout_gravity="center" android:gravity="center" android:textStyle="bold"
+     	android:clickable="true"
+     />
+    
+    <Button android:id="@+id/btnMenu" android:layout_width="match_parent" android:layout_height="wrap_content" 
+        android:text="Menu" android:onClick="leftMenuClicked" android:layout_marginTop="10dp" 
+        android:enabled="false" style="@style/button_df">
+        
+    </Button>
+     <Button android:id="@+id/btnDrinks" android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:text="Drinks" android:onClick="leftMenuClicked" android:layout_marginTop="10dp"
+         android:enabled="false" style="@style/button_df">
+        
+    </Button>
+    <View android:layout_width="match_parent" android:layout_height="3px" 
+        android:background="#11121212"  android:layout_marginTop="10dp"/>
+    
+    <Button android:id="@+id/btnWaiter" android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:text="Call the waiter" android:onClick="leftMenuClicked" android:layout_marginTop="10dp"
+         android:enabled="false" style="@style/button_df">
+    </Button>
+    
+     <Button android:id="@+id/btnOrder" android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:text="Review &amp; Place Order" android:onClick="leftMenuClicked" android:layout_marginTop="10dp"
+         android:enabled="false" style="@style/button_df">
+    </Button>
+     
+      <Button android:id="@+id/btnBill" android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:text="Pay the bill" android:onClick="leftMenuClicked" android:layout_marginTop="10dp"
+         android:enabled="false" style="@style/button_df">
+        
+    </Button>
+    <Button android:id="@+id/btnConfig" android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:text="Settings" android:onClick="leftMenuClicked" android:layout_marginTop="10dp"
+         android:visibility="gone" style="@style/button_df">
+        
+    </Button>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"  
+        android:layout_margin="5dip" android:textColor="#ffffff" android:layout_weight="1"
+        android:text="Powered by Easymenu" android:layout_gravity="bottom|right" android:gravity="center|bottom"  />
+
+</LinearLayout>
+</ScrollView>
